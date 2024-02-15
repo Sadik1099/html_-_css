@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <section>
+            <h3>Please Fill Up the Form</h3>
+
+            <form action="">
+                <label for="name">Your Name
+                    <input id="name" type="text" placeholder="Your Name">
+                </label>
+                <label for="email">Your Email
+                    <input id="email" type="email" placeholder="Your Email">
+                </label>
+                <label for="phone">Your Phone
+                    <input id="phone" type="text" placeholder="Your Phone">
+                </label>
+
+                <fieldset>
+                    <legend>Pick one Pitha</legend>
+                    <label for="chitoy">
+                        <input type="radio" name="pitha" id="chitoy">Chitoy
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa">Vapa
+                    </label>
+                    <label for="puri">
+                        <input type="radio" name="pitha" id="puri">Puri
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pick one or more vorta</legend>
+                    <label for="sorisa">
+                        <input type="checkbox" name="vorta" id="sorisa"> Sorisa
+                    </label>
+                    <label for="sutki">
+                        <input type="checkbox" name="vorta" id="sutki"> Sutki
+                    </label>
+                    <label for="chili">
+                        <input type="checkbox" name="vorta" id="chili"> Chili
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Advisr</legend>
+                    <label for="message">
+                        <input type="textarea" row="30" col="30" placeholder="Your Advise">
+                    </label>
+                </fieldset>
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+
+            </form>
+        </section>
+    </main>
+
+    <footer></footer>
+</body>
+</html>

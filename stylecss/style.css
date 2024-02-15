@@ -1,0 +1,14 @@
+body{
+    background-color: aquamarine;
+}
+nav > ul > li {
+    display: inline;
+    color: aliceblue;
+    padding: 10px;
+}
+nav li >a{
+    text-decoration: none;
+}
+footer > p{
+    text-align: center;
+}
